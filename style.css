@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  cursor: none;
+}
+
 button {
   padding: 10px 15px;
 }
@@ -11,6 +15,7 @@ button {
   height: 288px;
   width: 288px;
   overflow: hidden;
+  position: relative;
 }
 .directionLeft {
   transform: scale(1, 1);
